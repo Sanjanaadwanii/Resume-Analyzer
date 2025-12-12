@@ -1,0 +1,20 @@
+# Python virtual envs
+venv/
+backend/venv/
+streamlit_app/venv/
+
+# Node
+frontend/node_modules/
+
+# Caches
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# IDE configs
+.vscode/
+
+# NLTK data
+nltk_data/
