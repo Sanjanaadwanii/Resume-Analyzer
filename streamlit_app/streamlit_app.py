@@ -9,7 +9,7 @@ from analyzer import compute_scores
 from PyPDF2 import PdfReader
 import io
 
-st.title('Resume Analyzer — Streamlit demo')
+st.title('Resume Analyzer')
 
 resume_input = st.text_area('Paste resume text here', height=200)
 uploaded_file = st.file_uploader("Or upload a PDF resume", type=['pdf'])
